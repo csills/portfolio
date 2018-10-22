@@ -78,7 +78,9 @@ footer {
 }
 
 @media (max-width: 480px) {
-  background: url("img/PortfolioHeroImage-mobile.jpeg") no-repeat center center;
+  .sec-main {
+    background: url("img/PortfolioHeroImage-mobile.jpeg") no-repeat center center;
+  }
 }
 
 
