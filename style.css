@@ -74,19 +74,21 @@ footer {
   h4 {
     font-size: 0.75em;
   }
-  .rwd-line {
-    display: block;
-  }
-}
-
-@media (max-width: 480px) {
   .sec-main {
     background: url("img/PortfolioHeroImage-mobile.jpeg") no-repeat center center;
-    height: 500px;
   }
   .parallax { 
     /* The image used */
     background-image: url("img/PortfolioHeroImage-mobile.jpeg");
+  }
+  #home {
+    height: 750px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  span.rwd-line {
+    font-size: 1em;
   }
 }
 
