@@ -80,6 +80,7 @@ footer {
 @media (max-width: 480px) {
   .sec-main {
     background: url("img/PortfolioHeroImage-mobile.jpeg") no-repeat center center;
+    height: 500px;
   }
 }
 
@@ -326,14 +327,17 @@ h5 {
 }
 
 .card-flipper {
-  transition: 0.6s;
-  transform-style: preserve-3d;
+  -webkit-transition: 0.6s;
+          transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
   position: relative;
 }
 
 .card-front,
 .card-back {
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
@@ -349,10 +353,13 @@ h5 {
 
 .card-front {
   z-index: 2;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
 }
 
 .card-back {
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
 }
 
 #rpr-live-site, #sceneittoo-git-hub, #tagged-git-hub {
