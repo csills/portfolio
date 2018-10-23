@@ -82,13 +82,13 @@ footer {
     background-image: url("img/PortfolioHeroImage-mobile.jpeg");
   }
   #home {
-    height: 750px;
+    height: 500px;
   }
 }
 
 @media screen and (max-width: 350px) {
   span.rwd-line {
-    font-size: 1em;
+    font-size: 0.75em;
   }
 }
 
