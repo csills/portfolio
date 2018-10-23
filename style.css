@@ -82,6 +82,10 @@ footer {
     background: url("img/PortfolioHeroImage-mobile.jpeg") no-repeat center center;
     height: 500px;
   }
+  .parallax { 
+    /* The image used */
+    background-image: url("img/PortfolioHeroImage-mobile.jpeg");
+  }
 }
 
 
@@ -145,7 +149,7 @@ a.navbar-brand:hover {
 
 .parallax { 
   /* The image used */
-  background-image: url("img/PortfolioHeaderImage.jpeg");
+  background-image: url("img/PortfolioHeroImage.jpeg");
 
   /* Full height */
   height: 100%; 
