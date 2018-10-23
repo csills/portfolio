@@ -75,11 +75,12 @@ footer {
     font-size: 0.75em;
   }
   .sec-main {
-    background: url("img/PortfolioHeroImage-mobile.jpeg") no-repeat center center;
+    background: url("img/PortfolioHeroImage-mobile.jpg") no-repeat;
+    height: 500px;
   }
   .parallax { 
     /* The image used */
-    background-image: url("img/PortfolioHeroImage-mobile.jpeg");
+    background-image: url("img/PortfolioHeroImage-mobile.jpg");
   }
   #home {
     height: 500px;
@@ -136,7 +137,7 @@ a.navbar-brand:hover {
 .sec-main {
   position: relative;
   height: 1000px;
-  background: url("img/PortfolioHeroImage.jpeg") no-repeat center center;
+  background: url("img/PortfolioHeroImage.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -153,7 +154,7 @@ a.navbar-brand:hover {
 
 .parallax { 
   /* The image used */
-  background-image: url("img/PortfolioHeroImage.jpeg");
+  background-image: url("img/PortfolioHeroImage.jpg");
 
   /* Full height */
   height: 100%; 
