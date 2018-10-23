@@ -318,18 +318,18 @@ h5 {
   text-align: center;
 }
 
-.project-flip-container {
+.project-container {
   perspective: 1000px;
   display: inline-block;
   margin: 0.5%;
   width: 30%;
 }
 
-.project-flip-container:hover .card-flipper {
+.project-container:hover .card-flipper {
   transform: rotateY(180deg);
 }
 
-.project-flip-container,
+.project-container,
 .card-front,
 .card-back {
   width: 350px;
