@@ -68,6 +68,27 @@ footer {
   }
 }
 
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-size: 0.75em;
+  }
+}
+
+@media (max-width: 480px) {
+  .sec-main {
+    background: url("img/PortfolioHeroImage-mobile.jpeg") no-repeat center center;
+    height: 500px;
+  }
+  .parallax { 
+    /* The image used */
+    background-image: url("img/PortfolioHeroImage-mobile.jpeg");
+  }
+}
+
+
 @media screen and (max-width: 768px) and (min-width: 480px) {
   form {
     max-width: 100%;
@@ -77,23 +98,6 @@ footer {
 hr {
   margin-bottom: 3em;
   width: 7%;
-}
-
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 1.5em;
-  }
-  h4 {
-    font-size: 0.75em;
-  }
-  .sec-main {
-    background: url("img/PortfolioHeroImage-mobile.jpeg") no-repeat center center;
-    height: 1000px;
-  }
-  .parallax { 
-    /* The image used */
-    background-image: url("img/PortfolioHeroImage-mobile.jpeg");
-  }
 }
 
 
