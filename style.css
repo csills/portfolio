@@ -80,9 +80,19 @@ footer {
   #home {
     height: 500px;
   }
-  .justify-content-end {
-    padding-left: 60px;
-  }
+}
+
+/* Centering navbar on mobile media view */
+@media screen and (max-width: 480px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   a.navbar-brand {
+     margin: 0;
+   }
 }
 
 @media screen and (max-width: 350px) {
