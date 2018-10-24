@@ -287,6 +287,10 @@ img.remix-logo {
 
 /* Responsive Project Gallery*/
 
+.projects-container {
+  padding: 0;
+}
+
 #project-gallery {
   text-align: center;
   display: flex;
