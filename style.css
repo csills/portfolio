@@ -108,6 +108,13 @@ footer {
    }
 }
 
+/* Disabling parallax on mobile media view */
+@media only screen and (max-width: 480px) {
+  .parallax {
+    display: contents;
+  }
+}
+
 /* Centering form on tablet media view */
 @media screen and (max-width: 768px) and (min-width: 480px) {
   form {
