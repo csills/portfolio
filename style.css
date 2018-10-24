@@ -9,9 +9,6 @@ body {
   font-family: 'Open sans', sans-serif;
   font-weight: 300;
   height: 100%;
-  transform: translate3d(0,0,0);
-  -webkit-transform: translate3d(0,0,0);
-  -webkit-overflow-scrolling: touch;
 }
 
 .main-heading {
@@ -61,6 +58,7 @@ footer {
   padding: 3em 0;
 }
 
+/* Adjusting font sizes across all media views */
 @media screen and (max-width: 1000px) {
   h1 {
     font-size: 2em;
@@ -85,19 +83,6 @@ footer {
   }
 }
 
-/* Centering navbar on mobile media view */
-@media screen and (max-width: 480px) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   }
-   a.navbar-brand {
-     margin: 0;
-   }
-}
-
 @media screen and (max-width: 350px) {
   h1 {
     font-size: 1.0em;
@@ -110,7 +95,20 @@ footer {
   }
 }
 
+/* Centering navbar on tablet and mobile media view */
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   a.navbar-brand {
+     margin: 0;
+   }
+}
 
+/* Centering form on tablet media view */
 @media screen and (max-width: 768px) and (min-width: 480px) {
   form {
     max-width: 100%;
@@ -293,7 +291,6 @@ img.remix-logo {
 .projects-container {
   padding: 0;
 }
-
 #project-gallery {
   text-align: center;
   display: flex;
