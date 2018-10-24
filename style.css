@@ -80,6 +80,9 @@ footer {
   #home {
     height: 500px;
   }
+  .justify-content-end {
+    padding-left: 60px;
+  }
 }
 
 @media screen and (max-width: 350px) {
