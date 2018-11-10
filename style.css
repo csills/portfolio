@@ -208,8 +208,6 @@ a.navbar-brand:hover {
   position: relative;
   width: 30vw;
   height: 30vw;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   overflow: hidden;
   margin: auto;
@@ -217,10 +215,8 @@ a.navbar-brand:hover {
 }
 
 .profile-circle img {
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  max-height: 100%;
+  width: 30vw;
+  height: 30vw;
   object-fit: cover;
 }
 
