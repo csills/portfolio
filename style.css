@@ -206,8 +206,8 @@ a.navbar-brand:hover {
 
 .image-circle {
   position: relative;
-  width: 30vw;
-  height: 30vw;
+  width: 30%;
+  height: 30%;
   border-radius: 50%;
   overflow: hidden;
   margin: auto;
@@ -216,7 +216,7 @@ a.navbar-brand:hover {
 
 .image-circle img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 
