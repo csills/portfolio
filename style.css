@@ -204,7 +204,7 @@ a.navbar-brand:hover {
 
 /*About*/
 
-.image-circle {
+.profile-circle {
   position: relative;
   width: 30vw;
   height: 30vw;
@@ -214,10 +214,13 @@ a.navbar-brand:hover {
   margin-bottom: 70px;
 }
 
-.image-circle img {
+.profile-image {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  position:relative;
+  background:   url("img/Crystal Profile BW.jpg")no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #about-text {
