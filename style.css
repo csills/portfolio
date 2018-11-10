@@ -115,13 +115,6 @@ footer {
   }
 }
 
-/* Fixing profile picture circle image cut-off on mobile view */
-@media (max-width: 480px){
-  .image-cirlce {
-		width: 100% !important;
-	}
-}
-
 /* Centering contact form on tablet media view */
 @media screen and (max-width: 768px) and (min-width: 480px) {
   form {
@@ -215,8 +208,12 @@ a.navbar-brand:hover {
   position: relative;
   width: 30vw;
   height: 30vw;
-  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
+  overflow: hidden;
   margin: auto;
   margin-bottom: 70px;
 }
