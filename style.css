@@ -115,6 +115,13 @@ footer {
   }
 }
 
+/* Fixing profile picture circle image cut-off on mobile view */
+@media (max-width: 480px){
+  .image-cirlce {
+		width: 100% !important;
+	}
+}
+
 /* Centering contact form on tablet media view */
 @media screen and (max-width: 768px) and (min-width: 480px) {
   form {
