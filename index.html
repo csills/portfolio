@@ -284,13 +284,12 @@
             <hr />
       
             <div id="contact-form">
-              <!--form class="center-block" enctype="text/plain" method="post" action="mailto:sillscrystal@gmail.com" >-->
               <form id="submit_form" class="center-block" enctype="text/plain" onsubmit="submitForm(); return false;">   
                 <p><input id="inputName" class="form-control" type="text" placeholder="Name" required /></p> 
                 <p><input id="inputEmail" class="form-control" type="email" placeholder="Email" required /></p>   
                 <textarea id="inputMessage" class="form-control" name="message" placeholder="I look forward to hearing from you!" cols="30" rows="8" required></textarea>
 
-                <button class="btn btn-default center-block" type="submit" value="Submit">Submit<span id="status"></span></button>
+                <button id="submitButton" class="btn btn-default center-block" type="submit" value="Submit">Submit<span id="status"></span></button>
               </form>
             </div>
           </div>
