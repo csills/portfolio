@@ -13,10 +13,6 @@
   },
   "author": "Crystal Sills",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/csills/portfolio/issues"
-  },
-  "homepage": "https://github.com/csills/portfolio#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
