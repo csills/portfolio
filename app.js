@@ -3,6 +3,9 @@ const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const path = require('path');
 const nodemailer = require('nodemailer');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 const app = express();
 
@@ -37,12 +40,12 @@ app.post('/send', (req, res) => {
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-        host: "smtp.gmail.com",
-        port: 587,
+        host: process.env.MAIL_HOST,
+        port: process.env.MAIL_PORT,
         secure: false, // true for 465, false for other ports
         auth: {
-        user: 'sillscrystal@gmail.com', // generated ethereal user
-        pass: 'Changegonnacome@22' // generated ethereal password
+        user: process.env.MAIL_USERNAME, // generated ethereal user
+        pass: process.env.MAIL_PASSWORD // generated ethereal password
         },
         tls: {
             rejectUnauthorized:false
