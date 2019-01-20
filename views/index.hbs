@@ -280,14 +280,13 @@
       
             <hr />
 
-
             <div id="contact-form">
-              {{msg}}
-              <form id="contact-form" method="POST" action="send">   
+              <h5 id="message-sent">{{msg}}</h5>
+              <form id="contact-form" method="POST" action="#contact-form">   
                 <p><input class="form-control" name="name" type="text" placeholder="Name" required /></p> 
                 <p><input class="form-control" name="email" type="email" placeholder="Email" required /></p>   
-                <textarea class="form-control" name="message" placeholder="I look forward to hearing from you!" cols="30" rows="8" required></textarea>
-
+                <textarea class="form-control" name="message" placeholder="Message" cols="30" rows="8" required></textarea>
+                
                 <button class="btn btn-default center-block" type="submit">Submit</button>
               </form>            
             </div>

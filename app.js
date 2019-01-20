@@ -26,9 +26,9 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
-app.post('/send', (req, res) => {
+app.post('/', (req, res) => {
     const output = `
-        <p>You have a new contact request</p>
+        <p>Portfolio Contact Inquiry</p>
         <h3>Contact Details</h3>
         <ul>
             <li>Name: ${req.body.name}</li>
@@ -54,9 +54,9 @@ app.post('/send', (req, res) => {
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Nodemailer Contact Form" <sillscrystal@gmail.com>', // sender address
+        from: '"CAS PORTFOLIO" <sillscrystal@gmail.com>', // sender address
         to: "sillscrystal@gmail.com", // list of receivers
-        subject: "Nodemailer Contact Form Success", // Subject line
+        subject: "CAS Portfolio Contact Inquiry", // Subject line
         text: "New Contact Request", // plain text body
         html: output // html body
     };
@@ -69,7 +69,7 @@ app.post('/send', (req, res) => {
         console.log('Message sent: %s', info.messageId);
         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
-        res.render('index', {msg: 'Your message has been sent.'});
+        res.render('index', {msg: 'Your message has been sent!'});
     });
 });
 
