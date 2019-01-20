@@ -69,7 +69,7 @@ app.post('/', (req, res) => {
         console.log('Message sent: %s', info.messageId);
         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
-        res.render('index', {msg: 'Your message has been sent!'});
+        res.render('index', {msg1: 'Your message has been sent!', msg2: 'I look forward to speaking with you in the near future.'});
     });
 });
 
