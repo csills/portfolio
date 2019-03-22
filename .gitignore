@@ -2,4 +2,4 @@
 npm-debug.log
 .DS_Store
 /*.env
-/bin
+/bin.DS_Store
